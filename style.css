@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     /* box-sizing: border-box; */
     font-family:  sans-serif;
 }
@@ -68,3 +68,48 @@ ul li i:hover{
     color: gray;
     cursor: pointer;
 }
+
+
+/* main css  */
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    height: 92vh;
+
+}
+
+.main .maintext{
+    margin-top: 144px;
+    font-size: 24px;
+}
+
+.maintext h1{
+    font-size: 64px;
+}
+
+.top{
+    color:rgb(6, 127, 127);
+
+}
+
+.maintext button{
+    width: 145px;
+     height: 40px;
+     background-color: rgb(6, 127, 127);
+     border: none;
+     font-size: 22px;
+     color: white;
+     margin-top: 10px;
+}
+
+
+.maintext button:hover{
+    border: 2px solid rgb(6, 105, 105);
+    background: transparent;
+    color: rgb(5, 126, 126);
+}
+
+/* .trend{
+    margin-top: 40px;
+} */
