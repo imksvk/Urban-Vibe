@@ -281,3 +281,36 @@ ul li i:hover{
 .footertext p{
     margin-top: 11px;
 }
+
+
+
+
+
+/* about us  */
+
+.about{
+    display: none;
+}
+
+.aboutus{
+    background-color: rgb(3, 3, 64);
+    color: white;
+    padding: 66px;
+    font-size: 22px;
+
+}
+
+.me{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: white;
+    padding: 33px;
+    margin-left: 22%;
+    margin-top: 2%;
+}
+
+.me img{
+    width: 54%;
+    
+}
