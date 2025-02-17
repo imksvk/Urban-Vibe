@@ -314,3 +314,68 @@ ul li i:hover{
     width: 54%;
     
 }
+
+
+
+/* contact us  */
+.contact{
+    display: none;
+}
+
+.contactus{
+    background-color: rgb(2, 2, 68) ;
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+
+}
+
+.contactme{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 5%;
+    /* padding: 22px; */
+    background-color: #fff;
+    margin-left: 12%;
+}
+
+
+.contactme img{
+    width: 55%;
+}
+
+.contacttext{
+    width: 600px;
+    padding: 22px;
+}
+
+.contacttext p{
+    margin: 12px;
+
+}
+
+.form{
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+
+.form input{
+    width: 300px;
+    height: 27px;
+    margin-top: 11px;
+    padding: 5px;
+
+}
+
+.form button{
+    width: 316px;
+    height: 36px;
+    background-color: rgb(4, 107, 107);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+}

@@ -16,7 +16,7 @@ function homes(){
     }
     blog.style.display = "block";
     about.style.display = "none";
-
+    document.getElementsByClassName("contact")[0].style.display = "none";
 
 
     document.getElementById("home").style.color = "rgb(78, 214, 214)";
@@ -37,6 +37,7 @@ function shops(){
     for(x of card){
         x.style.display = "block";
     }
+    document.getElementsByClassName("contact")[0].style.display = "none";
     document.getElementById("shops").style.color = "rgb(78, 214, 214)";
     document.getElementById("home").style.color = "black";
     document.getElementById("blog").style.color = "black";
@@ -51,6 +52,11 @@ function blogs(){
     }
     blog.style.display = "block";
     about.style.display = "none";
+    footer.style.display = "flex";
+    letter.style.display = "flex";
+
+    
+    document.getElementsByClassName("contact")[0].style.display = "none";
     document.getElementById("blog").style.color = "rgb(78, 214, 214)";
     document.getElementById("home").style.color = "black";
     document.getElementById("shops").style.color = "black";
@@ -66,8 +72,9 @@ function aboutus(){
     }
     blog.style.display = "none";
     about.style.display = "block";
-    footer.style.display = "none";
-    letter.style.display = "none";
+    document.getElementsByClassName("contact")[0].style.display = "none";
+    // footer.style.display = "none";
+    // letter.style.display = "none";
 
     document.getElementById("about").style.color = "rgb(78, 214, 214)";
     document.getElementById("blog").style.color = "black";
@@ -75,3 +82,25 @@ function aboutus(){
     document.getElementById("shops").style.color = "black";
     document.getElementById("contact").style.color = "black";
 };
+
+
+
+
+function contacts(){
+    mainpage.style.display = "none";
+    for(x of card){
+        x.style.display = "none";
+    }
+    blog.style.display = "none";
+    about.style.display = "none";
+    
+    document.getElementsByClassName("contact")[0].style.display = "block";
+    // footer.style.display = "none";
+    // letter.style.display = "none";
+
+    document.getElementById("contact").style.color = "rgb(78, 214, 214)";
+    document.getElementById("blog").style.color = "black";
+    document.getElementById("home").style.color = "black";
+    document.getElementById("shops").style.color = "black";
+    document.getElementById("about").style.color = "black";
+}
