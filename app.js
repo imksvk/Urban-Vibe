@@ -17,6 +17,7 @@ function homes(){
     blog.style.display = "block";
     about.style.display = "none";
     document.getElementsByClassName("contact")[0].style.display = "none";
+    document.getElementsByClassName("cart")[0].style.display = "none";
 
 
     document.getElementById("home").style.color = "rgb(78, 214, 214)";
@@ -37,6 +38,7 @@ function shops(){
     for(x of card){
         x.style.display = "block";
     }
+    document.getElementsByClassName("cart")[0].style.display = "none";
     document.getElementsByClassName("contact")[0].style.display = "none";
     document.getElementById("shops").style.color = "rgb(78, 214, 214)";
     document.getElementById("home").style.color = "black";
@@ -54,7 +56,7 @@ function blogs(){
     about.style.display = "none";
     footer.style.display = "flex";
     letter.style.display = "flex";
-
+    document.getElementsByClassName("cart")[0].style.display = "none";
     
     document.getElementsByClassName("contact")[0].style.display = "none";
     document.getElementById("blog").style.color = "rgb(78, 214, 214)";
@@ -75,6 +77,7 @@ function aboutus(){
     document.getElementsByClassName("contact")[0].style.display = "none";
     // footer.style.display = "none";
     // letter.style.display = "none";
+    document.getElementsByClassName("cart")[0].style.display = "none";
 
     document.getElementById("about").style.color = "rgb(78, 214, 214)";
     document.getElementById("blog").style.color = "black";
@@ -97,6 +100,7 @@ function contacts(){
     document.getElementsByClassName("contact")[0].style.display = "block";
     // footer.style.display = "none";
     // letter.style.display = "none";
+    document.getElementsByClassName("cart")[0].style.display = "none";
 
     document.getElementById("contact").style.color = "rgb(78, 214, 214)";
     document.getElementById("blog").style.color = "black";
@@ -113,7 +117,7 @@ function contacts(){
 function show(img){
     let newimg = document.getElementById("newimg");
     // newimg.src = img.src;
-    if (img.tagName === "IMG") {
+     if (img.tagName === "IMG") {
         newimg.src = img.src;
     } else {
         // If the clicked element is a button, find the corresponding image inside its card
