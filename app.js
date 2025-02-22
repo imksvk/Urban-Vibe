@@ -112,8 +112,16 @@ function contacts(){
 
 function show(img){
     let newimg = document.getElementById("newimg");
-    newimg.src = img.src;
+    // newimg.src = img.src;
+    if (img.tagName === "IMG") {
+        newimg.src = img.src;
+    } else {
+        // If the clicked element is a button, find the corresponding image inside its card
+        newimg.src = img.closest(".trend").querySelector("img").src;
+    }
     document.querySelector(".cart").style.display ="flex";
+
+
 
     // every thing display none 
     mainpage.style.display = "none";
