@@ -429,3 +429,23 @@ ul li i:hover{
     margin-inline: 22px;
     margin-top: 22px;
 }
+
+
+/*  dark mode button */
+
+#darkmodebtn{
+    border: 4px solid black;
+    color: white;
+    background-color: black;
+    width: 100px;
+    margin-top: 5px;
+    height: 40px;
+    border-radius: 8px;
+
+}
+
+
+.darkmode{
+    background-color: black;
+    color: white;
+}

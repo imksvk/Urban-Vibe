@@ -132,3 +132,22 @@ function addcart(){
     alert("Added to cart");
     location.reload();
 }
+
+// dark mode function
+
+function darkmode(){
+    body = document.querySelector("body");
+    body.classList.toggle("darkmode");
+    
+    let btn = document.querySelector("#darkmodebtn");
+    if(btn.textContent == "Dark Mode"){
+        btn.innerText = "Light Mode";
+        btn.style.color = "black";
+        btn.style.backgroundColor = "white";
+    }else{
+        btn.innerText = "Dark Mode";
+        btn.style.color = "white";
+        btn.style.backgroundColor = "black";
+        
+    }
+}
