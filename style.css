@@ -379,3 +379,53 @@ ul li i:hover{
     border: none;
     margin-top: 22px;
 }
+
+
+/* cart css  */
+
+
+
+.cart{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+
+.carttext{
+    padding: 22px;
+    margin-top: 22px;
+
+}
+
+.carttext p{
+    margin-top:  22px;
+}
+
+.carttext h2{
+    margin-top: 11px;
+}
+
+
+.carttext .btn button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(255, 89,0);
+    border : none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+    color: white;
+    
+}
+
+.carttext .back{
+    width: 140px;
+    color: white;
+    height: 40px;
+    background-color: rgb(3, 112, 112);
+    border : none;
+    font-size: 22px;
+    margin-inline: 22px;
+    margin-top: 22px;
+}

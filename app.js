@@ -104,3 +104,31 @@ function contacts(){
     document.getElementById("shops").style.color = "black";
     document.getElementById("about").style.color = "black";
 }
+
+
+
+// cart functions
+
+
+function show(img){
+    let newimg = document.getElementById("newimg");
+    newimg.src = img.src;
+    document.querySelector(".cart").style.display ="flex";
+
+    // every thing display none 
+    mainpage.style.display = "none";
+    for(x of card){
+        x.style.display = "none";
+    }
+    blog.style.display = "none";
+    about.style.display = "none";
+    contact
+    document.getElementsByClassName("contact")[0].style.display = "none";
+    
+}
+
+
+function addcart(){
+    alert("Added to cart");
+    location.reload();
+}
