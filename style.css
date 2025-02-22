@@ -449,3 +449,7 @@ ul li i:hover{
     background-color: black;
     color: white;
 }
+
+.blog{
+    background-color: inherit;
+}
