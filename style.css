@@ -143,6 +143,7 @@ ul li i:hover{
     background-color: #fff;
     margin-inline: 11px;
     /* padding: 22px; */
+    cursor: pointer;
 }
 
 .crd img{
@@ -169,6 +170,7 @@ ul li i:hover{
     color: white;
     font-size: 19px;
     margin-top: 11px;
+    cursor: pointer;
 }
 
 .crdtext i{
